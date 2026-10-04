@@ -1,0 +1,171 @@
+/* =========================================
+   ESTILOS GENERALES
+   ========================================= */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+
+/* =========================================
+   NAVEGACIÓN
+   ========================================= */
+
+.navbar-brand {
+    font-size: 22px;
+}
+
+
+/* =========================================
+   ENCABEZADO PRINCIPAL
+   ========================================= */
+
+.hero {.hero {
+    min-height: 550px;
+
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
+        ),
+        url("images/judo-wallpaper.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: white;
+}
+
+    
+}
+
+.hero-contenido {
+    padding: 30px;
+}
+
+.hero h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+
+/* =========================================
+   SECCIÓN DE VALORES
+   ========================================= */
+
+.valores {
+    background-color: #e9ecef;
+}
+
+
+/* =========================================
+   MODELO DE CAJA
+   ========================================= */
+
+.valor-caja {
+
+    background-color: white;
+
+    /* Padding */
+    padding: 30px;
+
+    /* Border */
+    border: 2px solid #dc3545;
+
+    /* Margin */
+    margin: 10px;
+
+    border-radius: 10px;
+
+    box-sizing: border-box;
+
+    height: 100%;
+}
+
+
+/* =========================================
+   TARJETAS
+   ========================================= */
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/* =========================================
+   FORMULARIO
+   ========================================= */
+
+.formulario-contacto {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #dddddd;
+}
+
+
+/* =========================================
+   PÁGINAS DE DETALLE
+   ========================================= */
+
+.imagen-detalle {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+footer {
+    background-color: #212529;
+    color: white;
+}
+
+
+/* =========================================
+   DISEÑO RESPONSIVO
+   ========================================= */
+
+@media screen and (max-width: 768px) {
+
+    .hero {
+        min-height: 400px;
+    }
+
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero p {
+        font-size: 19px;
+    }
+
+    .valor-caja {
+        margin: 5px;
+        padding: 20px;
+    }

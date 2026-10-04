@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bushido Judo Academy</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!--
+    CARACTERÍSTICAS DE HTML5:
+    Esta página utiliza elementos semánticos como header, nav,
+    main, section y footer para organizar el contenido.
+
+    También utiliza Bootstrap para crear una interfaz responsiva
+    que se adapta a computadoras, tabletas y teléfonos móviles.
+    -->
+
+
+    <!-- BARRA DE NAVEGACIÓN -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+        <div class="container">
+
+            <a class="navbar-brand fw-bold" href="index.html">
+                Bushido Judo Academy
+            </a>
+
+            <button class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#menuPrincipal">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+            <div class="collapse navbar-collapse"
+                 id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active"
+                           href="index.html">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="programas.html">
+                            Programas
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"
+                           href="contacto.html">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ENCABEZADO CON IMAGEN -->
+
+    <header class="hero">
+
+        <div class="hero-contenido">
+
+            <h1>Bushido Judo Academy</h1>
+
+            <p>
+                Disciplina • Respeto • Fortaleza
+            </p>
+
+            <a href="contacto.html"
+               class="btn btn-danger btn-lg">
+
+                Contáctanos
+
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+    <main>
+
+        <!-- ACERCA DE NOSOTROS -->
+
+        <section id="acerca"
+                 class="container py-5">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+
+                    <h2>Acerca de nosotros</h2>
+
+                    <p>
+                        Bushido Judo Academy es una academia ficticia
+                        dedicada a la enseñanza del Judo para niños,
+                        jóvenes y adultos.
+                    </p>
+
+                    <p>
+                        Nuestro objetivo es promover valores como la
+                        disciplina, el respeto, la confianza y el trabajo
+                        en equipo mediante la práctica del Judo.
+                    </p>
+
+                    <p>
+                        Contamos con programas diseñados para personas
+                        que desean aprender los fundamentos del deporte
+                        y para atletas interesados en competencias.
+                    </p>
+
+                    <a href="programas.html"
+                       class="btn btn-dark">
+
+                        Ver programas
+
+                    </a>
+
+                </div>
+
+
+                <div class="col-md-6 mt-4 mt-md-0">
+
+                    <img <img src="images/judo-adultos.jpg"
+     class="img-fluid rounded shadow"
+     alt="Entrenamiento de Judo Juvenil y Adultos">
+     
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- VALORES -->
+
+        <section class="valores py-5">
+
+            <div class="container">
+
+                <h2 class="text-center mb-5">
+                    Nuestros Valores
+                </h2>
+
+                <div class="row text-center g-4">
+
+                    <div class="col-md-4">
+
+                        <div class="valor-caja">
+
+                            <h3>Disciplina</h3>
+
+                            <p>
+                                Promovemos la constancia y el compromiso
+                                durante cada entrenamiento.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="valor-caja">
+
+                            <h3>Respeto</h3>
+
+                            <p>
+                                El respeto hacia los compañeros y
+                                entrenadores es fundamental en el Judo.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-md-4">
+
+                        <div class="valor-caja">
+
+                            <h3>Fortaleza</h3>
+
+                            <p>
+                                Desarrollamos fortaleza física y mental
+                                mediante entrenamiento constante.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- LLAMADO A LA ACCIÓN -->
+
+        <section class="text-center py-5">
+
+            <div class="container">
+
+                <h2>¿Quieres comenzar a practicar Judo?</h2>
+
+                <p>
+                    Conoce nuestros programas y comunícate con nosotros
+                    para obtener más información.
+                </p>
+
+                <a href="contacto.html"
+                   class="btn btn-danger btn-lg">
+
+                    Solicitar información
+
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="text-center py-4">
+
+        <p class="mb-0">
+            &copy; 2026 Bushido Judo Academy
+        </p>
+
+    </footer>
+
+
+    <!-- Bootstrap JavaScript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+</body>
+
+</html>
